@@ -47,7 +47,9 @@
 	//在函数的内部，this是指向函数的调用者 
 	//将时间绑定到原型链中
 	Sidebar.prototype.close = function(){
-		console.log('关闭sideabr');
+		console.log('关闭sideabr',this);
+		this.el.className = 'sidebar-move-left';
+		this.closeBarEl.className = 'sidebar-move-right';
 		this.state = 'closed';
 	};
 	Sidebar.prototype.open = function(){

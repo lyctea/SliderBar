@@ -41,3 +41,10 @@ height:100%，是指其相对父块高度而定义的高度，
 	top: 5px;
 	right: 5px;
 }
+.sidebar-move-left{
+
+
+}
+.sidebar-move-right{
+	left: 160px;
+}
